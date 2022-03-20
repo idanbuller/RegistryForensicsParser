@@ -6,7 +6,7 @@ The Registry has a tree structure. Each tree consists of keys, and each key may 
 
 Learning about artifacts in Windows is crucial for digital forensics examiners, as Windows accounts for most of the traffic in the and examiners will most likely encounter Windows and will have to collect evidence from it in almost all cyber-crime cases.
 
-### Analyzing Regedit's output with Python
+### Analyzing RECmd's output with Python
 ### Tool's Options
 ```
 What would you like to analyze?
