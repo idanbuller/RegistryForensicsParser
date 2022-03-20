@@ -10,9 +10,6 @@ class AppCompatCacheParserAnalysis:
 
     def __init__(self):  # More features will be added
         self.data = pd.read_csv("Registry.csv")
-        self.colors = cycler('color',
-                             ['#EE6666', '#3388BB', '#9988DD',
-                              '#EECC55', '#88BB44', '#FFBBBB'])
 
     def exe_currentVersion(self):
         values = self.data['ValueData'].tolist()
